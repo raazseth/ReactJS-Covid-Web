@@ -1,0 +1,57 @@
+.mainRegisterImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.roleImg {
+  width: 120px;
+  height: 180px;
+}
+.regForm {
+  margin-top: 5em;
+}
+.roleImgDiv {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(214, 214, 214);
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+}
+.roleImgActiveDiv {
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(109, 109, 109);
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+}
+.registerField {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_login_page {
+  margin-top: 13%;
+}
+
+@media screen and (max-width: 900px) {
+  .registerField {
+    width: 80%;
+  }
+}

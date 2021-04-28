@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.ErrorStyle {
+  color: red;
+  font-weight: 600;
+}
+.faqimg img {
+  width: 100%;
+  height: 30em;
+  margin-top: 1em;
+  margin-bottom: -2em;
+}
+.faqbody {
+  width: 50%;
+  margin: 4em auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .faqbody {
+    width: 90%;
+    margin: 1em auto 4em auto;
+  }
+}

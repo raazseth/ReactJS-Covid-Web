@@ -1,0 +1,32 @@
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 4em;
+  background-color: transparent;
+}
+
+.hdrRight {
+  margin-left: auto;
+}
+#simple-menu {
+  margin-top: 2em;
+}
+
+#simple-menuBtm {
+  margin-top: 2.5em;
+}
+.headerLogo a {
+  color: white;
+  font-size: 26px;
+}
+.menuIcon {
+  margin-right: 5px;
+}
+@media screen and (max-width: 900px) {
+  .mainHeader {
+    padding: 0.5em 0.8em;
+  }
+  .hdrRight {
+    margin-top: -0.2em;
+  }
+}

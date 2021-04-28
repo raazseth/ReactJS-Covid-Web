@@ -1,0 +1,47 @@
+.mainFooter {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(51, 51, 51);
+  padding: 1.5em 5em;
+  margin-top: 3em;
+  flex-wrap: wrap;
+  background-color: #282a35;
+}
+.footerRight {
+  margin-left: auto;
+}
+.mainFooter a {
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.footerRight a {
+  padding: 0.3em 0.5em;
+  border-radius: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footerRight a:hover {
+  background-color: rgba(68, 68, 68, 0.959);
+  transition: 0.4s ease-in;
+}
+@media screen and (max-width: 900px) {
+  .mainFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+  }
+  .footerRight {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3em;
+  }
+  .footerRight a {
+    padding: 0.3em 0;
+  }
+  .footerRight a:hover {
+    background-color: transparent;
+    transition: 0.4s ease-in;
+  }
+}

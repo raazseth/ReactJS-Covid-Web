@@ -1,0 +1,242 @@
+.mainHome {
+  display: flex;
+  flex-direction: column;
+}
+.homeUpperHead {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.homeHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 40em;
+  margin-top: 1em;
+}
+.homeHead h1 {
+  font-size: 50px;
+}
+/* #282A3 */
+.homeSectionTwo {
+  background-color: #f6f6f6;
+  height: 20em;
+  display: grid;
+  place-items: center;
+  padding: 4em 0;
+}
+.homeSectionTwoCntnt {
+  margin-left: auto;
+  margin-right: auto;
+}
+.homeSectionTwoCntnt h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.homeSectionTwoCntntMain {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0;
+}
+.homeSectionTwoC1 {
+  margin: 0 2em;
+  text-align: center;
+}
+.homeReg {
+  padding: 0.8em 2em;
+  border-radius: 24px;
+  border: 1px solid gainsboro;
+  font-family: Quicksand, sans-serif;
+  cursor: pointer;
+  margin-top: 2em;
+}
+.homeReg:hover {
+  background-color: ghostwhite;
+  transition: 0.5s ease-in-out;
+}
+.homeSectionTwoC2 {
+  margin: 0 2em;
+  text-align: center;
+}
+.mainHomeImg {
+  width: auto;
+  height: 40em;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+  margin-top: -3em;
+}
+.donorTxt {
+  text-align: center;
+  font-size: 45px;
+  color: #333;
+  margin: 0.5em 0;
+}
+.donorList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.innerHomeHead {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+.homeImgSection {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  justify-content: center;
+  display: flex;
+  padding: 5em;
+  color: azure;
+  margin-bottom: -2.6em;
+  margin-top: 2.6em;
+}
+.homeImgSection h1 {
+  font-size: 45px;
+}
+.homeImgSection h2 {
+  text-align: center;
+}
+.homeSectionCovidMain {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+.homeSectionCovidMain h4 {
+  margin-top: -5px;
+  font-size: 20px;
+}
+.homeSectionCovidMain a {
+  color: blue;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 24px;
+}
+.homeSectionCovidMain a:hover {
+  background-color: blue;
+  color: azure;
+  transition: 0.4s ease-in-out;
+}
+.showMore {
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 24px;
+  text-align: center;
+  background-color: blue;
+  color: azure;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.showMore:hover {
+  transition: 0.4s ease-in-out;
+  background-color: white;
+  color: blue;
+}
+.homeSectionCovid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.homeSectionCovid > div {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.homeSectionCovidOne h3 {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+.homeSectionCovidTwo h3 {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+.dailyconfirmed {
+  background-color: rgb(59, 59, 255);
+}
+.dailydeceased {
+  background-color: rgb(3, 223, 14);
+}
+.dailyrecovered {
+  background-color: rgb(253, 169, 13);
+}
+.totalconfirmed {
+  background-color: rgb(255, 53, 53);
+}
+.totaldeceased {
+  background-color: rgb(110, 202, 245);
+}
+.totalrecovered {
+  background-color: rgba(255, 55, 171, 0.973);
+}
+.dailySpan {
+  font-size: 12px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 900px) {
+  .homeHead h1 {
+    text-align: center;
+  }
+  .innerHomeHead {
+    text-align: center;
+    width: 80%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  .mainHomeImg {
+    width: 100%;
+  }
+  .homeSectionTwo {
+    height: auto;
+  }
+  .homeSectionTwoCntntMain {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeSectionTwoC2 {
+    margin-top: 1em;
+  }
+  .homeImgSection {
+    padding: 3.5em 1em;
+  }
+  .homeImgSection h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+  .homeImgSection h2 {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .homeSectionCovidOne h3 {
+    margin: 0.5em;
+    width: 240px;
+  }
+  .homeSectionCovidTwo h3 {
+    margin: 0.5em;
+    width: 240px;
+  }
+  .homeSectionCovidMain h4 {
+    margin-top: -5px;
+    margin-bottom: 0.7em;
+  }
+}
